@@ -4,7 +4,7 @@ import oreo from "./oreo.svg";
 
 const Oreo = () => (
   <Fragment>
-    <SVGInline className="oreo" classSuffix="-svg" width={400} svg={oreo} />
+    <SVGInline className="oreo" classSuffix="-svg" width="300" svg={oreo} />
   </Fragment>
 );
 
