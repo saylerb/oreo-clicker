@@ -1,0 +1,11 @@
+{
+  "name": "oreo-clicker",
+  "version": "1.0.0",
+  "description": "Click the oreo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Sayler",
+  "license": "ISC"
+}
