@@ -1,14 +1,8 @@
 import React from "react";
-import { render } from "react-dom";
-import SVGInline from "react-svg-inline";
-import oreo from "./oreo.svg";
+import ReactDOM from "react-dom";
 
 import "./styles.css";
 
-const App = () => (
-  <div className="App">
-    <SVGInline className="oreo" classSuffix="-svg" width={400} svg={oreo} />
-  </div>
-);
+const App = () => <div className="App" />;
 
-render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
