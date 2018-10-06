@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --out-dir build --public-url /oreo-clicker",
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "author": "Brian Sayler",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "parcel-bundler": "^1.10.2",
     "prettier": "^1.14.3"
   },
