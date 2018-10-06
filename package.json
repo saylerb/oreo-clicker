@@ -7,7 +7,8 @@
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --out-dir build --public-url /oreo-clicker",
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:update": "jest -u",
     "deploy": "npm run build && gh-pages -d build"
   },
   "author": "Brian Sayler",
