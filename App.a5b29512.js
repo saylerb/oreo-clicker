@@ -30,4 +30,4 @@ module.exports = `<svg version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 721 7
 },{}],"lY9v":[function(require,module,exports) {
 "use strict";var e=a(require("react")),r=require("react-dom"),t=a(require("react-svg-inline")),u=a(require("./oreo.svg"));function a(e){return e&&e.__esModule?e:{default:e}}require("./styles.css");var l=function(){return e.default.createElement("div",{className:"App"},e.default.createElement(t.default,{className:"oreo",classSuffix:"-svg",width:400,svg:u.default}))};(0,r.render)(e.default.createElement(l,null),document.getElementById("root"));
 },{"react":"1n8/","react-dom":"NKHc","react-svg-inline":"buGj","./oreo.svg":"z++n","./styles.css":"Tnu0"}]},{},["lY9v"], null)
-//# sourceMappingURL=/App.f3bbbe2e.map
+//# sourceMappingURL=/oreo-clicker/App.f3bbbe2e.map
