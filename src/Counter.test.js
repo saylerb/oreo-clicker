@@ -2,8 +2,12 @@ import React from "react";
 import { create } from "react-test-renderer";
 import Counter from "./Counter";
 
-test("the counter starts at zero", () => {
-  const counter = create(<Counter />);
+import { render } from "react-testing-library";
 
-  expect(counter.toJSON()).toMatchSnapshot();
+test("the counter starts at zero", () => {
+  const { getByTestId } = render(<Counter />);
+
+  const node = getByTestId("current-count");
+
+  expect(node.innerHTML).toEqual("Count: 0");
 });
