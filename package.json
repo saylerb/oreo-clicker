@@ -9,7 +9,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
     "test": "jest",
     "test:update": "jest -u",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "npm run test && npm run build && gh-pages -d build"
   },
   "author": "Brian Sayler",
   "license": "ISC",
