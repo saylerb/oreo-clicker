@@ -12,10 +12,10 @@ test("the counter starts at zero", () => {
 });
 
 test("the counter increments when you press the button", () => {
-  const { getByText, getByTestId } = render(<Counter />);
+  const { getByTestId } = render(<Counter />);
 
-  fireEvent.click(getByText("+"));
-  fireEvent.click(getByText("+"));
+  fireEvent.click(getByTestId("increment"));
+  fireEvent.click(getByTestId("increment"));
 
   expect(getByTestId("current-count").innerHTML).toEqual("Count: 2");
 });

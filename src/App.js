@@ -7,8 +7,9 @@ import Counter from "./Counter";
 
 const App = () => (
   <div className="App">
-    <Oreo />
-    <Counter />
+    <Counter>
+      <Oreo />
+    </Counter>
   </div>
 );
 
